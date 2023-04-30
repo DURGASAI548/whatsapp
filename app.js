@@ -35,12 +35,12 @@ app.post("/message",function(req,res)
     ]
     Durga.insertMany(MessageData)
     .then(value => {
-        console.log("saved");
+        res.send("saved");
     })
     .catch(error => {
-        console.log(error);
+        res.send(error);
     })
-    res.send("updated successfully")
+//     res.send("updated successfully")
 });
 console.log("hello");
 module.exports = app;
