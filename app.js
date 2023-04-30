@@ -42,4 +42,5 @@ app.post("/message",function(req,res)
     })
     res.send("updated successfully")
 });
+console.log("hello");
 module.exports = app;
