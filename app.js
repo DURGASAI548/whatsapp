@@ -26,7 +26,7 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
 
-app.post("/",function(req,res) 
+app.post("/message",function(req,res) 
 {
     const MessageData = [
       {
