@@ -42,10 +42,4 @@ app.post("/message",function(req,res)
     })
     res.send("updated successfully")
 });
-
-
-
-app.listen(8080,function(){
-    console.log("server is running at 8080 port");
-})
 module.exports = app;
