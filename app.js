@@ -40,7 +40,7 @@ app.post("/message",function(req,res)
     .catch(error => {
         res.send(error);
     })
-//     res.send("updated successfully")
+    res.send("updated successfully")
 });
 app.listen(8080,function(){
     console.log("server is running at 8080 port");
